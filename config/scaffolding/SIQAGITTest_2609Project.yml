@@ -36,7 +36,23 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+- serviceName: project.siqagittest_2609.integrations:Call_refData
+  packages:
+  - name: SIQAGITTest_2609Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.siqagittest_2609.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQAGITTest_2609Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.siqagittest_2609.referencedata:refData
   packages:
   - name: SIQAGITTest_2609Project
     version: "1.0"
