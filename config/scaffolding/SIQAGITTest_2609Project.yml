@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+services:
+- serviceName: project.siqagittest_2609.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: SIQAGITTest_2609Project
+    version: "1.0"
+- serviceName: project.siqagittest_2609.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQAGITTest_2609Project
+    version: "1.0"
